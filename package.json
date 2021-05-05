@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0"
+  },
+  "name": "community.n1ce",
+  "version": "1.0.0",
+  "description": "N1CE Token Smart Contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronny M.",
+  "license": "ISC"
+}
