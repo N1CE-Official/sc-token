@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "@openzeppelin/contracts": "^4.1.0"
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "1.2.3",
+    "ganache-cli": "^6.12.2"
   },
   "name": "community.n1ce",
   "version": "1.0.0",
@@ -9,10 +11,13 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ronny M.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-bignumber": "^3.0.0"
+  }
 }
